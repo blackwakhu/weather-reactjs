@@ -15,10 +15,15 @@ input[type='submit']:hover{
   color: beige;
 }
 
+input[type='number']:focus, input[type='number']{
+  border: none;
+}
+
 input, select, option{
   width: 100%;
   border: none;
   font-size: 1.1em;
+  outline: none;
 }
 
 .input-item{
