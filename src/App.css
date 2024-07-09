@@ -1,2 +1,34 @@
 main {
 }
+
+input[type='submit']{
+  border: solid green 2px;
+  width: 25%;
+  color: green;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+input[type='submit']:hover{
+  background-color: green;
+  color: beige;
+}
+
+input, select, option{
+  width: 100%;
+  border: none;
+  font-size: 1.1em;
+}
+
+.input-item{
+  border: solid black 1px;
+  margin: 2px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+label{
+  font-size: 0.9em;
+  text-transform: sentence;
+}
